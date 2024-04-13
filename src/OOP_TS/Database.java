@@ -31,7 +31,6 @@ public class Database {
     public static void printTeacher() {
         for (Teacher teacher : teachers) {
             if (teacher != null) {
-                System.out.println("---------------------------");
                 System.out.println(teacher.getID()+" "+ teacher.getName() + " " + teacher.getSurname());
                 System.out.println("---------------------------");
             }
@@ -41,7 +40,6 @@ public class Database {
     public static void printStudent() {
         for (Student student : students) {
             if (student != null) {
-                System.out.println("---------------------------");
                 System.out.println(student.getID()+ " "+ student.getName() + " " + student.getSurname());
                 System.out.println("---------------------------");
             }

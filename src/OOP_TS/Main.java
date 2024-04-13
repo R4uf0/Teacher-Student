@@ -20,9 +20,11 @@ public class Main {
                     addTeacherStudentConnection();
                     break;
                 case 4:
+                    System.out.println("---------------------------");
                     Database.printTeacher();
                     break;
                 case 5:
+                    System.out.println("---------------------------");
                     Database.printStudent();
                     break;
                 case 6:
@@ -40,10 +42,10 @@ public class Main {
     public static void printMenu() {
         String menu = "1) Yeni müəllim yaratmaq\n" +
                 "2) Yeni şagird yaratmaq\n" +
-                "3) Yeni teacher student əlaqəsi yaratmaq.\n" +
+                "3) Yeni teacher-student əlaqəsi yaratmaq.\n" +
                 "4) Mövcud müəllimləri görmək \n" +
                 "5) Mövcud şagirdləri görmək\n" +
-                "6) Bir müəllimin dərs aldığı şagirdləri görmək\n" +
+                "6) Bir müəllimin dərs veridiyi şagirdləri görmək\n" +
                 "7) Bir şagirdin aldığı dərsləri görmək\n" +
                 "8) Sistemdən çıxış\n";
         System.out.println(menu);
